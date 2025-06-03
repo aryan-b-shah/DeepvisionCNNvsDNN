@@ -1,8 +1,13 @@
 # DeepvisionCNNvsDNN
 
+## 🧠 Overview
+
 This project demonstrates image classification using two popular datasets: **MNIST** (handwritten digits) and **Fashion MNIST** (clothing items), comparing the performance of a Convolutional Neural Network (CNN) and a basic Deep Neural Network (DNN). Built using TensorFlow and Keras, this project showcases how deep learning can be applied to grayscale image data.
 
-## Project Summary
+## 👨‍💻 Author
+- Aryan Shah
+
+## 📊 Project Summary
 - **Dataset Size**: 70,000 images per dataset (28x28 grayscale)
 - **Models Used**:
   - Deep Neural Network (DNN)
@@ -13,7 +18,7 @@ This project demonstrates image classification using two popular datasets: **MNI
   - Use of validation sets
   - Early stopping to avoid overfitting
 
-## Results
+## ✅ Results
 
 | Dataset        | Model | Accuracy |
 |----------------|-------|----------|
@@ -24,7 +29,7 @@ This project demonstrates image classification using two popular datasets: **MNI
 
 CNN outperformed DNN on both datasets, especially on the more complex Fashion MNIST images.
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -47,7 +52,7 @@ cd DeepvisionCNNvsDNN
 jupyter notebook DeepvisionCNNvsDNN.ipynb
 ```
 
-## Model Architecture
+## 🧠 Model Architecture
 
 ### DNN:
 
@@ -66,7 +71,7 @@ jupyter notebook DeepvisionCNNvsDNN.ipynb
 - Dense (64, ReLU)
 - Output Layer (10, Softmax)
 
-## Highlights
+## 📌 Highlights
 
 - Compared two types of neural networks to illustrate the effectiveness of CNNs in image-based tasks.
 - Achieved high accuracy using simple model tuning and training strategies.
