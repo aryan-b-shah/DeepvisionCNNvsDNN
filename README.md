@@ -1,4 +1,4 @@
-# DeepvisionCNNvsDNN
+# DeepVision: Image Classification with CNN and DNN on MNIST & Fashion MNIST
 
 ## 🧠 Overview
 
